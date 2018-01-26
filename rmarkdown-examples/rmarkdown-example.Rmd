@@ -30,6 +30,8 @@ the _lower-right_ corner of _RStudio_.
 The course explorer is found here: 
 <https://courses.illinois.edu/schedule/2018/spring/STAT>
 
+- **STAT 385** _Statistics Programming Methods_
+
 ##### Making _R_ Code Work
 
 The following _R_ code will error when the document is first knit:
