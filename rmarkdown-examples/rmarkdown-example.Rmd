@@ -26,6 +26,10 @@ Write an unordered list of your classes this semester.
 The course explorer is found here: 
 <https://courses.illinois.edu/schedule/2018/spring/STAT>
 
+------------
+
+The list of courses is given as:
+
 - **STAT 385** [_Statistics Programming Methods_](https://courses.illinois.edu/schedule/2018/spring/STAT/385)
 - **STAT 432** [_Basics of Statistical Learning_](https://courses.illinois.edu/schedule/2018/spring/STAT/432)
 
