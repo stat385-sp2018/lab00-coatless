@@ -23,14 +23,14 @@ Write an unordered list of your classes this semester.
    will take you to the course description in the course explorer. 
 1. Make the long title (Statistics Programming Methods) italic.
 
-If you need help with syntax, go to the "Help" menu and select the 
-_Markdown Quick Reference_ guide. This will open in the **Help** tab on
-the _lower-right_ corner of _RStudio_.
-
 The course explorer is found here: 
 <https://courses.illinois.edu/schedule/2018/spring/STAT>
 
-- **STAT 385** _Statistics Programming Methods_
+- **STAT 385** [_Statistics Programming Methods_](https://courses.illinois.edu/schedule/2018/spring/STAT/385)
+- **STAT 432** [_Basics of Statistical Learning_](https://courses.illinois.edu/schedule/2018/spring/STAT/432)
+
+**NB** `**text**` generates bold text, `_text_` provides italic text, `[text](url)` creates
+a hyperlink, and `-` creates an unordered list.
 
 ##### Making _R_ Code Work
 
