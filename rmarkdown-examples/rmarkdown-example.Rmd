@@ -84,6 +84,14 @@ To make the code chunk dynamic, we surround the `r` by `{}`.
 Write the equation for the [Pythagorean Theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem)
 in both display centered and inline. (Hint `$` vs. `$$`)
 
+------
+
+Inline equation: $a^2 + b^2 = c^2$
+
+Display mode equation: $$a^2 + b^2 = c^2$$
+
+-----
+
 **Challenging**
 
 Provide the equation for the [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio)
@@ -95,6 +103,11 @@ _Hints:_
 - Square roots are given by: `\sqrt{quantity}`
 - If you would like, the symbol for phi is given by: `\phi`
 
+-------
+
+$$\phi = \frac{1 + \sqrt{5}}{2}$$
+
+-------
 
 **Advanced**
 
@@ -104,6 +117,11 @@ _Hints:_
 
 - Plus or Minus symbol is given by: `\pm` 
 
+-------
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+-------
 
 
 ##### Tables
