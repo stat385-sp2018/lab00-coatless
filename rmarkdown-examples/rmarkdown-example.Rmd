@@ -136,6 +136,17 @@ knitr::kable(health_infection)
 ```
 
 
+---------
+
+Table in Markdown:
+
+|        | HIV- | HIV+ |
+|:-------|-----:|-----:|
+| Male   | 12   | 37   |
+| Female | 50   |  9   |
+
+---------
+
 #### Paths
 
 ##### Relative Paths
