@@ -55,6 +55,21 @@ Fix the code chunk by:
 2. Load the package `ggplot2` using the `library()` function.
 3. Make the code chunk _dynamic_.
 
+------
+
+To solve the first issue, we install `ggplot2` using `install.packages("ggplot2")`. 
+It is important that we _avoid_ leaving the `install.packages()` command in an active code
+chunk as it will then run _everytime_ we knit the document.
+
+```{r}
+# install.packages("ggplot2")
+library("ggplot2")
+ggplot(mtcars, aes(wt, mpg)) +
+     geom_point()
+```
+
+To make the code chunk dynamic, we surround the `r` by `{}`. 
+
 ##### Mathematics
 
 **A helpful resource for looking up mathematical symbols can be found at:
