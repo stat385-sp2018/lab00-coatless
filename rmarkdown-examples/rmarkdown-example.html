@@ -274,6 +274,14 @@ ggplot(mtcars, aes(wt, mpg)) +
 <li><code>r-logo.png</code></li>
 <li><code>cloud-data.csv</code></li>
 </ul>
+<hr />
+<p>This assumes the working directory is /home/rstudio-user/project/rmarkdown-examples.</p>
+<ul>
+<li><code>r-imgs/rstudio/rstudio-logo.png</code></li>
+<li><code>r-imgs/r/r-logo.png</code></li>
+<li><code>data/cloud-data.csv</code></li>
+</ul>
+<hr />
 </div>
 </div>
 <div id="absolute-or-fixed-paths" class="section level5">
@@ -293,6 +301,15 @@ ggplot(mtcars, aes(wt, mpg)) +
 <li><code>cloud-data.csv</code></li>
 </ul>
 <p>Hint: Open the file location in your file explorer or type <code>getwd()</code> to get the base of the directory.</p>
+<hr />
+<p>This assumes the working directory is /home/rstudio-user/project/rmarkdown-examples.</p>
+<ul>
+<li>/home/rstudio-user/project/rmarkdown-examples/r-imgs/rstudio/rstudio-logo.png</li>
+<li>/home/rstudio-user/project/rmarkdown-examples/r-imgs/r/r-logo.png</li>
+<li>/home/rstudio-user/project/rmarkdown-examples/data/cloud-data.csv</li>
+</ul>
+<p><strong>NB</strong> The full filepath can be seen in the rendered document. Here, we attach the working directory to the start of the file path before repeating the relative path. This is to ensure that if students copy the above code, they should get operating-system specific paths.</p>
+<hr />
 </div>
 </div>
 </div>

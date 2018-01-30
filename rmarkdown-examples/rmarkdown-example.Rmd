@@ -182,6 +182,16 @@ Write _relative_ paths for:
 - `r-logo.png`
 - `cloud-data.csv`
 
+-----------------------
+
+This assumes the working directory is `r getwd()`.
+
+- `r-imgs/rstudio/rstudio-logo.png`
+- `r-imgs/r/r-logo.png`
+- `data/cloud-data.csv`
+
+-----------------------
+
 ##### Absolute or Fixed Paths
 
 Absolute or fixed paths are based on the relation of the file to the
@@ -209,3 +219,17 @@ Write _absolute_ paths for _Windows_, _MacOS_, and _Linux_:
 Hint: Open the file location in your file explorer or type `getwd()` to get
 the base of the directory.
 
+-----------------------
+
+This assumes the working directory is `r getwd()`.
+
+- `r file.path(getwd(), "r-imgs/rstudio/rstudio-logo.png")`
+- `r file.path(getwd(), "r-imgs/r/r-logo.png")`
+- `r file.path(getwd(), "data/cloud-data.csv")`
+
+**NB** The full filepath can be seen in the rendered document. 
+Here, we attach the working directory to the start of the file path before repeating
+the relative path. This is to ensure that if students copy the above code, they should
+get operating-system specific paths. 
+
+-----------------------
